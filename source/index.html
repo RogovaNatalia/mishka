@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HTML Academy: Мишка</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+</head>
+<body>
+  <header class="main-header toggleable">
+    <a class="main-header__logo">
+      <span class="visually-hidden">Логотип магазина Мишка</span>
+    </a>
+    <div class="main-header__button">
+      <button class="main-header__button-on toggleable__button toggleable__button--show" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+          <path d="M20 0H0V2H20V0Z" fill="#231F20"/>
+          <path d="M20 6H0V8H20V6Z" fill="#231F20"/>
+          <path d="M20 12H0V14H20V12Z" fill="#231F20"/>
+        </svg>
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <button class="main-header__button-off toggleable__button toggleable__button--hide" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+          <path d="M21 1.36585L19.5659 0L10.5512 8.58537L1.43415 0L0 1.36585L9.01463 10.0488L0 18.6341L1.43415 20L10.5512 11.4146L19.5659 20L21 18.6341L11.9854 10.0488L21 1.36585Z" fill="black"/>
+        </svg>
+        <span class="visually-hidden">Закрыть меню</span>
+      </button>
+    </div>
+    <nav class="main-header__nav nav">
+      <ul class="nav__list main-menu">
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="catalog.html">Каталог товаров</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="form.html">Вязание на заказ</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="main-header__search" href="#.html">Поиск по сайту</a>
+    <a class="main-header__cart" href="#.html">Корзина: пока пуста</a>
+    <nav class="main-header__secondary-nav secondary-nav">
+      <ul class="secondary-nav__list secondary-menu">
+        <li class="secondary-menu__item">
+          <a class="secondary-menu__link" href="#">Новые поступления</a>
+        </li>
+        <li class="secondary-menu__item">
+          <a class="secondary-menu__link" href="#">Распродажа</a>
+        </li>
+      </ul>
+    </nav>
+    <span class="main-header__info">Бесплатная доставка по России</span>
+  </header>
+
+  <main class="main-container">
+    <h1 class="visually-hidden">Мишка</h1>
+
+    <section class="promo">
+      <h1 class="promo__title">Милые штуки ручной работы для дома</h1>
+      <button class="promo__button button" href="#">Предметы интерьера</button>
+      <button class="promo__button button" href="#">Детские игрушки</button>
+    </section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
